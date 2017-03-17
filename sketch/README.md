@@ -1,5 +1,9 @@
 # Sketch
 
+## Scale
+
+Always design in @1x scale
+
 ## Layer naming convention
 
 Group\_Component\_State\_Name
@@ -13,13 +17,15 @@ Group\_Component\_State\_Name
 
 **General**
 
-* icon
+* icon - Icon should always be black as its default color
 * image
-* tile
+* tile - A repeatable image
 
 ### Component
 
 **General**
+
+The components apply across all platforms
 
 * button
 * switcher
@@ -29,6 +35,8 @@ Group\_Component\_State\_Name
 
 **iOS**
 
+The standard iOS components
+
 * tabBar
 * navigationBar
 * textField
@@ -37,8 +45,10 @@ Group\_Component\_State\_Name
 
 ### State
 
+The different states for a single component
+
 * inactive
 * normal
-* highlighted
-* selected
-* empty
+* highlighted - 
+* selected - Something switches on
+* empty - No content
